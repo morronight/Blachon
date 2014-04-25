@@ -1,0 +1,307 @@
+#contenu
+{
+	margin-top: 20px;
+	border:1px solid #A12C2E;
+	background-color:#fdfcf7;
+	font-size:15px;
+	font-weight:normal;
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	min-height: 337px;
+	max-width: 960px;
+	-webkit-box-shadow: 1px 1px 3px #888;
+	box-shadow: 1px 1px 3px #888;
+}
+
+.ariane
+{
+	margin:0;
+	font-size:12px;
+}
+
+.ariane a
+{
+	text-decoration:none;
+	color:black;
+}
+
+article h1
+{
+	color:#A12C2E;
+	font-size:42px;
+	font-weight:normal;
+	margin:10px 0;
+}
+
+article h1 a
+{
+	text-decoration:none;
+	color:#A12C2E;
+}
+
+article h2
+{
+	font-size:20px;
+	font-weight:normal;
+	margin:10px 0 0 0;
+	color:#A12C2E;
+}
+
+article h2#pasArticle
+{
+	top: 90px;
+	position: relative;
+}
+
+article h2 span
+{
+	font-size:14px;
+	color:#612467;
+}
+
+article a.article
+{
+	color:black;
+	text-decoration:none;
+	margin:10px 0 0 0;
+	display:inline-block;
+	width:100%
+}
+
+article h3
+{
+	color:#767676;
+	margin:0 0 10px 0;
+	font-size:17px;
+	font-weight:normal;
+	box-sizing:border-box;
+}
+
+article h3 a
+{
+	color:#A12C2E;
+}
+
+article h4
+{
+	color:#A12C2E;
+	margin:20px 0 5px 0;
+	font-size:24px;
+	font-weight:normal;
+}
+
+article a
+{
+	color:#f78949;
+}
+
+.paragraphe
+{
+	margin:10px 0;
+	color:#767676;
+}
+
+.auteur
+{
+	font-weight:300;
+	font-size:15px;
+}
+
+.legende
+{
+	font-weight:300;
+	font-size:14px;
+	text-align:center;
+	margin:2px 0;
+}
+
+.galerie span
+{
+	vertical-align:middle;
+	width:200px;
+	margin:5px;
+	display:inline-block;
+	text-align:center;
+}
+
+.galerie img
+{
+	max-width:200px;
+	max-height:200px;
+	cursor:pointer;
+	margin:0 auto;
+}
+
+.iconePdf
+{
+	width:25px;
+	background:url(/Images/iconePdf.png) no-repeat center;
+}
+
+
+#contenu .listeDocuments a {
+	text-decoration: none;
+	color: black;
+}
+
+#contenu .listeDocuments td {
+	border: none;
+}
+#contenu .listeDocuments td a:hover{
+	text-decoration:underline;
+}
+
+.documents h2 {
+margin-top: 20px;
+margin-bottom: 5px;
+padding: 5px 0px 5px 40px;
+cursor: pointer;
+border-top: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+}
+
+.documents div {
+line-height: 25px;
+}
+
+.documents h2:hover{
+color: #612467;
+
+}
+.documents td span{
+font-weight: lighter;
+}
+
+.documents h2 span {
+float: right;
+font-size: 12px;
+font-weight: normal;
+padding-right: 5px;
+}
+
+.smartListeDocuments {
+max-height: 0px;
+overflow-y: hidden;
+}
+
+#zoomGalerie
+{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:rgba(0, 0, 0, .8);
+	z-index:10;
+	padding:20px 0;
+}
+
+#zoomGalerie h2
+{
+	text-align:center;
+	margin:50px;
+	color:#F78949;
+}
+
+#zoomGalerie img
+{
+	margin:10px auto;
+	max-width:90%;
+	max-height:90%;
+	display:block;
+}
+
+.listeGaleries span, .imageGalerie
+{
+	vertical-align:middle;
+	width:200px;
+	margin:5px;
+	display:inline-block;
+	text-align:center;
+}
+
+.listeGaleries img, .imageGalerie img
+{
+	max-width:200px;
+	max-height:200px;
+	cursor:pointer;
+	margin:0 auto;
+}
+
+article table
+{
+	width:100%;
+	border-collapse:collapse;
+	margin:10px 0;
+}
+
+article td
+{
+	border:1px solid #ccc;
+}
+
+.document p
+{
+	margin:0;
+}
+
+#agenda
+{
+	font-size:16px;
+	margin-top:20px;
+}
+
+#agenda .evenement
+{
+	color:black;
+	min-height:50px;
+	margin:5px 0 5px 40px;
+}
+
+#agenda .evenement .date
+{
+	color:white;
+	background-color:#612467;
+	padding:3px 7px;
+	float:left;
+	width:25px;
+	text-align:center;
+	margin:0 2px 2px -42px;
+	font-size:12px;
+	text-shadow: 0 0 2px #F78949;
+}
+
+#agenda .evenement .date .day
+{
+	font-size:24px;
+}
+
+#agenda .evenement .lieu
+{
+	color:#612467;
+	font-size:12px;
+}
+
+#agenda .evenement .description
+{
+	font-weight:300;
+	font-size:14px;
+}
+
+div.boutonssociaux ul#like
+{
+	position: relative;
+	list-style-type: none;
+	float: right;
+}
+
+div.boutonssociaux ul#like li
+{
+	float: left;
+	display: inline;
+	vertical-align: top;
+	margin-right: 10px;
+}

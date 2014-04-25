@@ -1,0 +1,46 @@
+img
+{
+	border-width:0;
+}
+
+body
+{
+	margin:0;
+}
+
+.sectionBottom
+{
+	clear:both;
+}
+
+.floatLeft
+{
+	clear:both;
+	float:left;
+	margin:2px;
+	margin-right:10px;
+	position:relative;
+}
+
+.floatRight
+{
+	clear:both;
+	float:right;
+	margin:2px;
+	margin-left:10px;
+	position:relative;
+}
+
+.floatCenter
+{
+	display:block;
+	margin:2px 0;
+	width:100%;
+	position:relative;
+}
+
+.floatCenter *
+{
+	display:block;
+	margin:0 auto;
+}

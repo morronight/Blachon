@@ -1,0 +1,341 @@
+.html5article, .html5section, .html5header, .html5footer, .html5nav
+{
+	display:block;
+}
+
+.html5header
+{
+	position:relative;
+	top:0;
+	height:164px;
+	width:1280px;
+	margin:0 auto;
+	background-color:#fbf6f0;
+}
+
+body > .html5article
+{
+	position:relative;
+	width:1280px;
+	margin:0 auto;
+	min-height:615px;
+	background-image:url('/Images/Mur.jpg');
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-color:#fdfcf7;
+	padding:20px 0;
+}
+
+.html5header #logo
+{
+	position:absolute;
+	top:20px;
+	left:105px;
+}
+
+.html5header #mainMenu.html5nav
+{
+	position:absolute;
+	top:34px;
+	left:370px;
+}
+
+.html5header #mainMenu.html5nav .mainSubMenu
+{
+	display:inline-block;
+}
+
+.html5header #mainMenu.html5nav > a, .html5header #mainMenu.html5nav .mainSubMenu > a
+{
+	font-family:'Din', 'Comfortaa';
+	font-size:13px;
+	text-decoration:none;
+	color:#612467;
+	padding:15px 15px 17px 10px;
+	font-weight:bold;
+	display:inline-block;
+	min-width:85px;
+	background-image:url('/Images/Menu.png');
+	background-repeat:no-repeat;
+	text-align:center;
+	background-position:top center;
+	height:23px;
+	cursor:pointer;
+	background-color:transparent;
+}
+
+.html5header #mainMenu.html5nav > a:hover, .html5header #mainMenu.html5nav .mainSubMenu > a:hover
+{
+	color:white;
+	background-position:bottom center;
+}
+
+.html5header .html5nav .mainSubMenu > div
+{
+	display:none;
+	position:absolute;
+	z-index:5;
+	margin-left:-10px;
+}
+
+.html5header .html5nav .mainSubMenu:hover > div
+{
+	display:block;
+}
+
+.html5header .html5nav .mainSubMenu a
+{
+	display:block;
+	font-family:'Din', 'Comfortaa';
+	font-size:13px;
+	text-decoration:none;
+	color:#815085;
+	text-align:left;
+	background-color:white;
+	padding:2px 10px;
+}
+
+.html5header .html5nav .mainSubMenu div a:hover
+{
+	color:white;
+	background-color:#815085;
+}
+
+.html5header #flashInfo
+{
+	position:absolute;
+	border:1px solid black;
+	border-radius:5px;
+	top:103px;
+	left:375px;
+	width:406px;
+	height:16px;
+	-webkit-box-shadow:1px -1px 2px black;
+	box-shadow:1px -1px 2px black;
+	font-size:14px;
+	padding:5px 10px;
+	z-index:4px;
+}
+
+.html5header #flashInfo a
+{
+	color:#F78949;
+}
+
+.html5header #raccourcis.html5nav
+{
+	position:absolute;
+	display:block;
+	top:14px;
+	left:828px;
+	width:273px;
+	height:131px;
+}
+
+.html5header #raccourcis.html5nav > a, .html5header #raccourcis.html5nav > span
+{
+	display:inline-block;
+	margin:0 5px -1px 5px;
+	width:124px;
+	height:44px;
+	vertical-align:top;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	font-size:10px;
+	color:black;
+	box-sizing:border-box;
+	padding:10px 0;
+}
+
+.html5header #raccourcis.html5nav a
+{
+	font-family:'Din', 'Comfortaa';
+	text-decoration:none;
+}
+
+.html5header #raccourcis.html5nav #raccourciLocaliser, .html5header #raccourcis.html5nav #raccourciContact
+{
+	padding:5px 0;
+	font-size:17px;
+	font-weight:bold;
+}
+
+.html5header #raccourcis.html5nav a .tooltip
+{
+	display:none;
+	float:right;
+}
+
+.html5header #raccourcis.html5nav a:hover .tooltip
+{
+	display:block;
+}
+
+.html5header #raccourcis.html5nav .racourciSociaux
+{
+	padding:5px 0;
+}
+
+.html5footer
+{
+	position:relative;
+	height:120px;
+	width:1280px;
+	margin:0 auto;
+	color:white;
+	font-size:10px;
+	box-sizing:border-box;
+	padding:0 176px 0 96px;
+	background-color:#815085;
+	background-clip:content-box;
+}
+
+.html5footer a
+{
+	color:white;
+	text-decoration:none;
+	line-height:14px;
+}
+
+.html5footer h4
+{
+	margin:0 0 5px 0;
+	font-size:12px;
+}
+
+.html5footer > .html5nav, .html5footer > .html5section
+{
+	float:left;
+	min-width:170px;
+	box-sizing:border-box;
+	padding:20px 10px 10px 20px;
+}
+
+.html5footer #logos
+{
+	height:50px;
+	padding-top:60px;
+}
+
+.html5footer #logos > a
+{
+	display:inline-block;
+	background-image:url('/Images/SitesAmis.png');
+	background-repeat:no-repeat;
+	height:49px;
+}
+
+.html5footer #CG26
+{
+	background-position:0px 0px;
+	width:44px;
+}
+
+.html5footer #CCPH
+{
+	background-position:-123px 0px;
+	width:67px;
+}
+
+.html5footer #SMDC
+{
+	background-position:-44px 0px;
+	width:79px;
+}
+
+.html5footer #SEV
+{
+	background-position:-190px 0px;
+	width:76px;
+}
+
+.html5header .racourciSociaux a.facebook, .html5header  .racourciSociaux a.twitter, .html5header  .racourciSociaux a.googleplus, .html5footer .racourciSociaux a.facebook, .html5footer  .racourciSociaux a.twitter, .html5footer  .racourciSociaux a.googleplus
+{
+	display:inline-block;
+	width:34px;
+	height:34px;
+	vertical-align:top;
+	box-sizing:border-box;
+	padding:0;
+	border:none;
+	margin:0 2px;
+}
+
+.html5article h1
+{
+	text-transform:uppercase;
+	color:#F78949;
+	font-size:42px;
+	font-weight:normal;
+	margin:10px 0;
+}
+
+.html5article h1 a
+{
+	text-decoration:none;
+	color:#f78949;
+}
+
+.html5article h2
+{
+	font-size:20px;
+	font-weight:normal;
+	margin:10px 0 0 0;
+	color:#f78949;
+}
+
+.html5article .categoriesH2
+{
+	margin-top: 20px;
+	margin-bottom: 5px;
+	padding: 5px 0px 5px 40px;
+	cursor: pointer;
+	border-top: 1px solid #CCC;
+	border-bottom: 1px solid #CCC;
+}
+
+.html5article .nombreDocs
+{
+	color: #612467;
+	float: right;
+	font-size: 12px;
+	font-weight: normal;
+	padding-right: 5px;
+}
+.html5article .lienDoc
+{
+	text-weight:bold;
+}
+.html5article  .tdDocs
+{
+	line-height: 25px;
+}
+
+.html5article a.article
+{
+	color:black;
+	text-decoration:none;
+	margin:10px 0 0 0;
+	display:inline-block;
+	width:100%
+}
+
+.html5article h3
+{
+	margin:0 0 10px 0;
+	font-size:17px;
+	font-weight:normal;
+}
+
+.html5article h4
+{
+	color:#612467;
+	margin:20px 0 5px 0;
+	font-size:24px;
+	font-weight:normal;
+}
+
+.html5article a
+{
+	color:#f78949;
+}

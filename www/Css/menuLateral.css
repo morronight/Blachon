@@ -1,0 +1,140 @@
+#menuLateral
+{
+	width:245px;
+	position:absolute;
+	top:20px;
+	right:180px;
+	min-height:570px;
+	border:1px solid #f89155;
+	padding:10px;
+	border-radius:12px;
+	background-color:#fdfcf7;
+}
+
+#menuLateral h2
+{
+	margin:0;
+	font-size:17px;
+	padding:10px 5px 5px 5px;
+	text-transform:uppercase;
+}
+
+#menuLateral h4
+{
+	display:inline;
+	padding:0 12px 0 10px;
+	margin:5px 0;
+	font-size:14px;
+	border-right:1px solid #888;
+	position:relative;
+}
+
+#menuLateral h4:last-of-type
+{
+	border-right:none;
+}
+
+#menuLateral a
+{
+	position:relative;
+	color:#612467;
+	display:block;
+	width:210px;
+	height:105px;
+	border:3px solid #888;
+	background-repeat:no-repeat;
+	background-origin:content-box;
+	background-size:1130px 105px;
+	margin:5px auto;
+}
+
+#menuLateral #deguster a
+{
+	border-color:#cfbdd1;
+}
+
+#menuLateral #decouvrir a
+{
+	border-color:#c77b9f;
+}
+
+#menuLateral #deguster a:hover, #menuLateral #decouvrir a:hover
+{
+	border-color:#f78949;
+}
+
+#menuLateral h2 a, #menuLateral h4 a
+{
+	display:inline;
+	border:none;
+	text-decoration:none;
+}
+
+#menuLateral h4 a
+{
+	color:black;
+}
+
+#menuLateral a .tooltip
+{
+	display:none;
+	position:absolute;
+	right:-10px;
+	top:0;
+}
+
+#menuLateral a:hover .tooltip
+{
+	display:inline;
+}
+
+#menuLateral h3
+{
+	position:absolute;
+	margin:0;
+	top:70px;
+	left:-7px;
+	font-size:15px;
+	text-transform:uppercase;
+	padding:5px;
+	background-image:url('/Images/BordEtiquette.png');
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+
+#menuLateral a:hover h3
+{
+	color:#f78949;
+}
+
+#menuLateral h3 span
+{
+	background-color:white;
+	border:1px solid #d7c7d5;
+	border-left:none;
+	padding:4px 5px 3px 5px;
+}
+
+#menuLateral a#abricots
+{
+	background-image:url('/Images/AccueilBas.jpg');
+	background-position:0 0px;
+}
+
+#menuLateral a#vins
+{
+	background-image:url('/Images/AccueilBas.jpg');
+	background-position:25% 0px;
+}
+
+#menuLateral a#histoire
+{
+	background-image:url('/Images/AccueilBas.jpg');
+	background-position:75% 0px;
+}
+
+#menuLateral a#terresblanches
+{
+	background-image:url('/Images/AccueilBas.jpg');
+	background-position:50% 0px;
+}
